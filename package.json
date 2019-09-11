@@ -1,0 +1,18 @@
+{
+  "name": "dnd-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build dnd.scss --out-file dnd.min.css",
+    "docs": "parcel build index.html --no-content-hash --public-url . --out-dir docs/",
+    "publish": "npm run build && npm run docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.23.0-module.beta.1"
+  }
+}
